@@ -1,3 +1,6 @@
+# Pizza Composition Classification Analysis
+# Author: Aleksandra Ivanova
+# Statistical modeling project
 
 # Diskriminacni analyza
 install.packages("MVN") # Q-Q plot pro normalitu
@@ -224,3 +227,4 @@ PZZ_NA.qda.pred$class
 # Logisticka regrese
 PZZ_NA.lr.pred <- predict(PZZ_pca.lr.test, PZZ_pca_NA)
 PZZ_NA.lr.pred
+
